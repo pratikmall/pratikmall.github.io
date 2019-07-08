@@ -1,0 +1,136 @@
+.project-head h1{
+  font-family: proxima;
+  font-weight: 500;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.project-head h4{
+  font-family: proxima;
+  font-weight: 200;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+}
+
+.project-head{
+  position: absolute;
+  margin-top: -350px;
+  right: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.project-head h5 strong{
+  font-family: proxima;
+  font-weight: 300;
+  font-size: 1em;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.project-head h5{
+  font-family: proxima;
+  font-weight: 200;
+  font-size: 1em;
+  color: white;
+}
+
+#project h3{
+  font-family: proxima;
+  font-weight: 400;
+  font-size: 1.7em !important;
+  text-transform: uppercase;
+  color: #404040;
+  text-align: left !important;
+}
+
+#project h4{
+  font-family: proxima;
+  font-weight: 400;
+  font-size: 1.3em !important;
+  color: #404040;
+  text-align: left !important;
+}
+
+#project p{
+  font-size: 1.3em !important;
+  line-height: 170%;
+  color: #606060;
+}
+
+.line-left {
+  float: none;
+  border-bottom: solid 2px #3d4a5c;
+  height: 2px;
+  clear: both;
+  margin-top: 10px;
+  -webkit-transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  transition: all .35s ease-in-out;
+  transition-delay: .35s;
+  color: #0eb79f;
+  border-color: #0eb79f !important;
+}
+
+.bg-img{
+  background-color: #f4f4f4;
+}
+
+.projectbg{
+  background-color: white;
+  z-index: 200;
+}
+
+#project .jumbotron{
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.next{
+  float: right;
+}
+
+.previous{
+  float: left;
+}
+
+.back{
+  float:right;
+  z-index: 200;
+  padding: 15px;
+  padding-right: 30px;
+  color: white;
+  background-color: transparent;
+  font-family: proxima !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+}
+a.back:hover{
+  color: #0eb79f;
+  text-decoration: none;
+}
+
+
+@media (min-width: 768px){
+  .back{
+    padding-right: 45px;
+  }
+
+.pro-head {
+  width: 100% !important;
+}
+}
+
+a.media{
+  color:white;
+}
+
+a.media:hover{
+  color: #0eb79f;
+  text-decoration: none;
+}
